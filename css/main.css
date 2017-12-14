@@ -23,6 +23,10 @@ body {
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
 img:nth-child(1) {
   display: block;
   width: 100%;
@@ -99,6 +103,7 @@ img:nth-child(5) {
   img:nth-child(5) {
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -125,4 +130,5 @@ img:nth-child(5) {
     width: 33.3333%;
     float: right;
   }
+
 }
